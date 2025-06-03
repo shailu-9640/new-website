@@ -1,0 +1,215 @@
+body{
+    background-image: url(Background2.png);
+}
+.nav1{
+    display:flex;
+    justify-content:space-between;
+    padding:0px 100px 0px 50px;
+    color:white;
+}
+.left{
+    font-size:30px;
+    color:orange;
+}
+.right{
+    display:flex;
+    list-style-type: none;
+    gap:50px;
+    color:#ffa500;
+    cursor:pointer;
+}
+
+.main{
+    display:flex;
+   
+    justify-content: space-between;
+    
+}
+.leftside{
+    list-style-type: none;
+    padding-left: 100px;
+    padding-top: 70px;
+    justify-content: flex-start;
+    margin-top:60px;
+    
+}
+img{
+    padding-top:20px;
+   
+}
+.first{
+    color:white;
+    font-style: italic;
+    font-size: 30px;
+    padding-left: 9px;
+}
+.second{
+    color:white;
+    font-size: 65px;
+    font-style: bold;
+    font-weight: 200px;
+    margin:10px;
+    padding-right: 19px;
+}
+.third{
+    color:orange;
+    font-style: italic;
+    font-size:25px ;
+}
+.four{
+    margin:8px;
+    color:white;
+    border: solid;
+    display:inline-block;
+    border-width: auto;
+    border-radius: 5px 5px 5px 5px;
+}
+.four:hover{
+    color:orange;
+}
+#rightside img{
+    height: 350px;
+    width:350px;
+    margin-top:30px ;
+    padding-right:30px;
+    
+   
+   
+}
+#f1,#f2,#f3,#f4{
+    border:2px solid;
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    border-color: white;
+    cursor:pointer;
+
+
+}
+.bottom{
+    display:flex;
+    padding-left:120px;
+    margin-top: -30px;
+    gap:25px;
+    
+    
+}
+#f1{
+    background-image: url(food1.png);
+    background-size: cover;
+}
+#f2{
+    background-image: url(food2.png);
+    background-size: cover;
+}
+#f3{
+    background-image: url(food3.png);
+    background-size: cover;
+}
+#f4{
+    background-image: url(food4.png);
+    background-size: cover;
+}
+.heading{
+    color:#ffa500;
+    font-size:30px;
+    margin-top: 100px;
+    padding-left: 50px;
+    font-style: oblique;
+
+}
+.burg{
+    color:#ffa500;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 100px;
+    padding-left: 420px;
+
+}
+.matter{
+    color:white;
+    font-size:18px;
+    padding-left: 130px;   
+}
+.din{
+    color:#ffa500;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 80px;
+    padding-left: 380px;
+}
+.matter1{
+    color:white;
+    font-size:18px;
+    padding-left: 130px;  
+    margin-top: 10px;
+
+}
+p1{
+    padding-left:100px ;
+    width:fit-content;
+}
+span2{
+    padding-left:270px ;
+
+}
+span1{
+    padding-left:190px ;
+}
+span3{
+
+     padding-left:160px ;
+}
+.park{
+    color:#ffa500;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 60px;
+    padding-left: 380px;
+}
+.matter2{
+    color:white;
+    font-size:18px;
+    padding-left: 150px;  
+   
+}
+#hi{
+    padding-left:50px;
+}
+
+
+
+
+
+
+
+
+.apps{
+    display:flex;
+    padding-left:120px;
+    margin-top: 30px;
+    gap:200px;
+  
+} 
+#img1,#img2,#img3{
+    border:2px solid;
+    width:120px;
+    height:120px;
+    gap:25px;
+    border-color: white;
+    cursor:pointer;
+    border-radius: 5px 5px 5px 5px;
+}
+#img1{
+    background-image: url(swig1.png);
+    background-size: cover;
+}
+#img2{
+    background-image: url(Uber1.jpeg);
+    background-size: cover;
+}
+#img3{
+    background-image: url(zom.png);
+    background-size: cover;
+
+}

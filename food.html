@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="food.css">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    </head>
+    <body>
+        <section id="home">
+        <div class="nav1">
+              
+                <div class="left">Mezbaani
+
+                </div>
+                
+                    <ul class="right">
+                        <li>Home</li>
+                        <li>Menu</li>
+                        <li>About</li>
+                        <li>Location</li>
+                        <li>Contact</li>
+                    </ul>
+                    
+            
+            
+            <div class="right1">
+                <span class="material-symbols-outlined">
+                    search
+                    </span>
+                 <span class="material-symbols-outlined">
+                        menu
+                        </span>
+
+            </div>
+        </div>
+        <div class="main">
+            <ul class="leftside">
+                <li class="first">Are You Hungry ?</li>
+                <li class="second">Dont't Wait</li>
+                <li class="third">Let start to order food now</li>
+                <li class="four">Check out Menu</li>
+            
+
+            </ul>
+            <div id="rightside">
+                <img src="food.png" id="foodImage">
+              
+            </div>
+        </div>
+        <div class="bottom">
+            <div id="f1"></div>
+            <div id="f2"></div>
+            <div id="f3"></div>
+            <div id="f4"></div>
+        </div>
+        </section>
+        <section id="burger">
+            <div class="burg">
+                BURGER NIGHTS!
+            </div>
+            <div class="matter">
+                <p>We aim to have Burger Nights on the !st & 3rd Mondays of each month! Reservations recommended on Opentable,<br>and will accept as many walk-ins as we can! Delicious burgers made from premium ingredients,wine ans oyster <br> specials,and more!Don't miss out!</p>
+            </div>
+        </section>
+        <section class="dinner">
+            <div class="din">
+                DINNER RESERVATIONS!
+            </div>
+            <div class="matter1">
+                <p>
+                We are now open for dinner service Thursday through Sunday! We’ll be accepting limited walk-ins and <br><span2>reservations on OpenTable.</span2><br></p>
+            <p1>For brunch, we still do not take reservations as we seat guests on a first come first<br> <span1>serve basis. However, you can join our Yelp!</span1><br>
+         </p1><br>
+         <p2><span3>Waitlist to save your spot ahead of time (same day only)!</span3>
+         </p2>
+            </div>
+        </section>
+        <section class="parking">
+            <div class="park">
+                PARKING INFO
+            </div>
+            <div class="matter2">
+                <p>DO NOT park in Rick’s parking lot - they WILL TOW at all times of the day! The open parking lot<br>
+                directly behind our restaurant has 2 hour free parking, or is free after 5:00PM. Nearby, South and</p>
+                <p id="hi">North of Main St on 1st St, there are two parking structures with 4 hour free parking. </p>
+            </div>
+        </section>
+        <section class="business">
+            <div class=""></div>
+        </section>
+
+
+
+
+
+
+
+        <section id="services">
+            <div class="heading">
+                Our Delivery Services
+            </div>
+            <div class="apps">
+               <div id="img1"></div>
+               <div id="img2"></div>
+               <div id="img3"></div>
+            </div>
+
+        </section>
+        <script>
+            let food=document.getElementById("foodImage")
+             let food1=document.getElementById("f1")
+             let food2=document.getElementById("f2")
+             let food3=document.getElementById("f3")
+             let food4=document.getElementById("f4")
+
+
+
+           
+       food1.addEventListener("click", () => {
+       foodImage.src = "food1.png";
+       });
+       food2.addEventListener("click", () => {
+       foodImage.src = "food2.png";
+       });
+       food3.addEventListener("click", () => {
+       foodImage.src = "food3.png";
+       });
+       food4.addEventListener("click", () => {
+       foodImage.src = "food4.png";
+       });
+        </script>
+    </body>
+</html>
